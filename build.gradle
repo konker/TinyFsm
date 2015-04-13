@@ -1,0 +1,23 @@
+apply plugin: 'java'
+
+group = 'com.luxvelocitas.edfsm4j'
+version = '0.1.0'
+
+description = """EDFSM4J"""
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+
+
+repositories {
+     jcenter()
+}
+
+dependencies {
+    compile group: 'org.slf4j', name: 'slf4j-jdk14', version:'1.7.7'
+    testCompile group: 'junit', name: 'junit', version:'3.8.1'
+
+    //system group: 'com.luxvelocitas.tinyevent', name: 'TinyEvent', version:'0.1.0'
+    //system group: 'com.luxvelocitas.datautils', name: 'DataUtils', version:'0.1.0'
+}
