@@ -1,4 +1,4 @@
-package fi.hiit.edfsm4j;
+package com.luxvelocitas.tinyfsm;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
