@@ -8,7 +8,10 @@ description = """TinyFsm"""
 sourceCompatibility = 1.6
 targetCompatibility = 1.6
 
-
+jar {
+    baseName = 'TinyFsm'
+    version =  '0.1.0'
+}
 
 repositories {
      jcenter()
